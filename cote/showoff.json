@@ -1,0 +1,13 @@
+{
+// Don't put the version in here anymore. It's programatically calculated
+  "name": "cote",
+  "description": "A presentation on the when, and where and what usage of Puppet!",
+  "protected": ["presenter", "onepage"],
+  "user": "presenter",
+  "password": "changeme",
+  "feedback": false,
+  "sections": [
+
+    "intro/intro.md"
+    ]
+}

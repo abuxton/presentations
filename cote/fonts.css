@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Arvo';
+	src: URL('_fonts/Arvo-Regular.ttf') format ('ttf');
+}
+
+@font-face {
+	font-family: 'PT Sans';
+	src: URL('_fonts/PT_Sans-Web-Regular.ttf') format ('ttf');
+}
