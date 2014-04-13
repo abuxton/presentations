@@ -10,3 +10,7 @@
 **@digitaladept**
 
 abuxton on github
+
+~~~SECTION:notes~~~
+mmu logo, playfish logo, opscode, puppet and aws logos
+twitter logo, git logo, maybe coder wall logo
