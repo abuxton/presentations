@@ -1,4 +1,4 @@
-<!SlLIDE>i
+<!SLIDE>i
 
 
 ~~~SECTION:notes~~~
