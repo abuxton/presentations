@@ -1,5 +1,7 @@
 <!SLIDE>
 
-#So what lead to this?
+#So what is the issue?
 
-Reality, understanding and finally requirments!
+Who said there was an issue? Who said it was even a problem! Just make a decision and move on.
+
+
