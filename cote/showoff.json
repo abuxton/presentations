@@ -14,8 +14,11 @@
     "problems/allthings.md",
     "problems/factors.md",  
     "problems/whatis.md",
+    "problems/how.md",
     "problems/whatif.md",
   
+    "examples/example.md",
+
     "outro/further.md",
     "outro/credits.md"
     ]
