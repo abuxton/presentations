@@ -10,6 +10,12 @@
 
     "intro/intro.md",
     "intro/primer.md",
-    "problem/problem.md"
+    
+    "problems/problem.md",
+    "problems/whatif.md",
+    "problems/factors.md",  
+  
+    "outro/further.md",
+    "outro/credits.md"
     ]
 }
