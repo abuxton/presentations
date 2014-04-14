@@ -1,10 +1,10 @@
 <!SLIDE>
 
-#What is the issue?
+#What is the is the Problem?
 
-* Who said there was an issue? 
-* Who said it was even a problem!
+* Who said there was a Problem? 
+* Who said it was even an issue!
 
-> Why  not just make a decision and move on?
+> Why not just make a decision and move on?
 
 
