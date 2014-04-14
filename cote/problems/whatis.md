@@ -1,6 +1,6 @@
 <!SLIDE>
 
-#What is the is the Problem?
+#What is the Problem?
 
 * Who said there was a Problem? 
 * Who said it was even an issue!
