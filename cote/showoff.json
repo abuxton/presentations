@@ -12,9 +12,9 @@
     "intro/primer.md",
    
     "problems/allthings.md",
-    "problems/problem.md",
-    "problems/whatif.md",
     "problems/factors.md",  
+    "problems/whatis.md",
+    "problems/whatif.md",
   
     "outro/further.md",
     "outro/credits.md"
