@@ -3,4 +3,4 @@
 
 * Puppetising Puppet?
 * A module to manage PuppetFile (Librarian or R10k)
-* Which envirnoment manages your environmments! 
+* Which environment manages your environments! 
