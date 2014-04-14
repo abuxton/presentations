@@ -10,7 +10,8 @@
 
     "intro/intro.md",
     "intro/primer.md",
-    
+   
+    "problems/allthings.md",
     "problems/problem.md",
     "problems/whatif.md",
     "problems/factors.md",  
