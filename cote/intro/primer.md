@@ -1,5 +1,5 @@
 <!SLIDE>
-#who am I?
+#Who am I?
 
 * Started as a application developer and system admin in education
 * Contracted as a end to end solutions provider (mainly web technologies)
@@ -8,6 +8,7 @@
 * Currently Puppet Labs Professional Services engineer.
 
 **@digitaladept**
+
 **abuxton on github**
 
 ~~~SECTION:notes~~~
