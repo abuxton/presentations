@@ -1,0 +1,16 @@
+{
+  "name": "devops",
+  "description": "",
+  "protected": ["presenter", "onepage"],
+  "user": "presenter",
+  "password": "changeme",
+  "feedback": false,
+  "sections": [
+
+    "intro/intro.md",
+    "intro/primer.md",
+
+    "outro/further.md",
+    "outro/credits.md"
+    ]
+}
