@@ -8,8 +8,9 @@
   "feedback": false,
   "sections": [
 
-    "intro/intro.md",
-    "intro/primer.md",
+    "intro/Cover.md",
+    "intro/Aboutme.md", 
+    "intro/Intro.md",
    
     "problems/allthings.md",
     "problems/factors.md",  
