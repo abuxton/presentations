@@ -5,9 +5,10 @@
 Puppet gives you all the resources, but it can be used backwards too. In fact we insist.
 
 * Discovery.
-* Auditing.
 * Development.
+* Auditing.
 * Presentation.
+* Management.
 
 And this is with out managing anything.
 

@@ -12,15 +12,27 @@
     "intro/Aboutme.md", 
     "intro/Intro.md",
    
+    "problems/Section.md",
     "problems/allthings.md",
     "problems/factors.md",  
     "problems/whatis.md",
     "problems/how.md",
     "problems/whatif.md",
     
-    "ideas/Install.md", 
-    "ideas/Usage.md", 
+    "ideas/Section.md",
+    "ideas/Install.md",
+    "ideas/Usage.md",
 
+    "start/Section.md",
+    "start/Discovery.md",
+    "start/Development.md",
+    "start/Auditing.md",
+    "start/Presentation.md", 
+    "start/Management.md",
+  
+
+    "outro/Section.md",
+    "outro/Whatif.md",
     "outro/further.md",
     "outro/credits.md"
     ]
