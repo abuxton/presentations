@@ -5,7 +5,7 @@
 
 Facter is a powerful tool in its own right, don't forget this.
 
-* Standardised stystem information across platforms
+* Standardised system information across platforms.
 * Extendable, reusable.
 * Centralised through PuppetDB.
  

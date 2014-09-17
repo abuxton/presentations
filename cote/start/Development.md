@@ -6,7 +6,7 @@ We don't need to actually apply Puppet DSL.
 
 * Custom facts,which mean custom script distribution.
 * Standardise in house tool distribution. 
-* Custom functions to interogate the PuppetDB.
+* Custom functions to interrogate the PuppetDB.
 * What about other peoples work first, Puppet modules, the Forge. 
 
 
