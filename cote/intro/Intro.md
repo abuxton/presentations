@@ -7,7 +7,7 @@ Where do you start, what comes first, and what is the best approach to adoption.
 * Problems.
 * Ideas.
 * Starting out.
-* Managing config management, with config management.
+* Using Puppet in from an alternative approach.
 * What if I tell you there is no answer?
 
 
