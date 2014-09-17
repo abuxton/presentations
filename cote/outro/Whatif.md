@@ -8,7 +8,7 @@ Puppet Enterprise is a toolbox. Use it as you would any other tool. The way that
 * Watch the user created videos.
 * Experiment with your left hand?
 * Try use what some one else did before.
-* See how far you get using it the way we recomend.
+* See how far you get using it the way we recommend.
 * Don't be afraid to try doing it another way.
 
 ~~~SECTION:notes~~~
