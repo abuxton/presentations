@@ -1,2 +1,2 @@
 <!SLIDE center subsection>
-# Ideation, lets think a little differently!
+# Ideation, lets think about this a little differently.
