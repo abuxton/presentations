@@ -6,7 +6,6 @@
 
 * Facter.
 * Puppet.
-* PuppetDB.
 * Console & PuppetDB.
 * Mcollective.
 
