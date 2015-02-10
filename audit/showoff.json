@@ -1,0 +1,35 @@
+{
+// Don't put the version in here anymore. It's programatically calculated
+  "name": "cote",
+  "description": "A presentation on the when, and where and what usage of Puppet!",
+  "protected": ["presenter", "onepage"],
+  "user": "presenter",
+  "password": "changeme",
+  "feedback": false,
+  "sections": [
+
+    "intro/Cover.md",
+    "intro/Aboutme.md", 
+    "intro/Intro.md",
+    
+    "why/section.md",
+    "why/deprecation.md",
+    "why/replacment.md",
+
+    "how/section.md",
+    "how/motivation.md",
+    "how/logic.md",
+    "how/code.md",
+    "how/module.md",
+
+    "usage/section.md",
+    "usage/manifest.md",
+    "usage/dataabstraction.md"
+    "usage/createresource.md",
+    "usage/profile.md",
+    
+    "outro/thatsallfolks.md",
+    "outro/further.md",
+    "outro/credits.md"
+    ]
+}
