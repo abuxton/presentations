@@ -1,6 +1,6 @@
 {
 // Don't put the version in here anymore. It's programatically calculated
-  "name": "cote",
+  "name": "Puppet Audit",
   "description": "A presentation on the when, and where and what usage of Puppet!",
   "protected": ["presenter", "onepage"],
   "user": "presenter",
@@ -24,10 +24,12 @@
 
     "usage/section.md",
     "usage/manifest.md",
-    "usage/dataabstraction.md"
+    "usage/dataabstraction.md",
     "usage/createresource.md",
     "usage/profile.md",
+    "usage/gotchas.md",
     
+    "outro/sectionqa.md",
     "outro/thatsallfolks.md",
     "outro/further.md",
     "outro/credits.md"
