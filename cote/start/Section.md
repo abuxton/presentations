@@ -1,2 +1,2 @@
 <!SLIDE center subsection>
-# Start, lets do things one step at a time.
+# Problems, or the reasons we config manage.

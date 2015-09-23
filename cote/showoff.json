@@ -1,7 +1,6 @@
 {
-// Don't put the version in here anymore. It's programatically calculated
   "name": "cote",
-  "description": "A presentation on the when, and where and what usage of Puppet!",
+  "description": "A presentation to discuss the usage of Puppet for its added value tools and solutions and not just as a configuration managment tool.", 
   "protected": ["presenter", "onepage"],
   "user": "presenter",
   "password": "changeme",
@@ -12,24 +11,22 @@
     "intro/Aboutme.md", 
     "intro/Intro.md",
    
-    "problems/Section.md",
-    "problems/allthings.md",
-    "problems/factors.md",  
-    "problems/whatis.md",
-    "problems/how.md",
-    "problems/whatif.md",
-    
-    "ideas/Section.md",
-    "ideas/Install.md",
-    "ideas/Usage.md",
-
     "start/Section.md",
-    "start/Discovery.md",
-    "start/Development.md",
-    "start/Auditing.md",
-    "start/Presentation.md", 
-    "start/Management.md",
-  
+    "start/Problems.md",
+    "start/Solutions.md",  
+    "start/TheTools.md",
+    
+    "adoption/Section.md",
+    "adoption/Installation.md",
+    "adoption/Poss.md",
+    "adoption/Masterless.md",
+    "adoption/DSL.md",
+    "adoption/Facter.md",
+    "adoption/PuppetResources.md",
+    "adoption/PuppetDB.md",
+    "adoption/MCollective.md",
+    "adoption/Reports.md",
+    "adoption/MonitorAudit.md,
 
     "outro/Section.md",
     "outro/Whatif.md",
