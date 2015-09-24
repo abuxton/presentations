@@ -1,8 +1,8 @@
 <!SLIDE>
-# title #
-## sub title ##
+# Masterless #
+## Ok I'm stealing all your questions! ##
 
-Content
+It's ok, you just lose some of the tools, but not all of them.  
 
 
 ~~~SECTION:notes~~~
