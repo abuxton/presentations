@@ -4,8 +4,8 @@
 
 * Where do you start?
 * What comes first?
-* What is the best approach to adoption. 
-* What if I tell you there is no single nswer?
+* What is the best approach to adoption? 
+* What if I tell you there is no single answer?
 
 
 
