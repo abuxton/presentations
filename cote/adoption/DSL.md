@@ -1,8 +1,10 @@
 <!SLIDE>
-# title #
-## sub title ##
+# Domain Specific Language (DSL) #
+## One 'syntax' to rule them all! ##
 
-Content
+* No I do not mean only the Puppet DSL.
+* No I'm not about to say go use Ruby. But I am going to mention Ruby. 
+* I am going to tell you its good to make a choice.
 
 
 ~~~SECTION:notes~~~
