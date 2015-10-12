@@ -1,8 +1,8 @@
 <!SLIDE>
-# title #
-## sub title ##
+# MCollective #
+## Pulling strings with Puppet! ##
 
-Content
+MCollective, 
 
 
 ~~~SECTION:notes~~~
