@@ -6,7 +6,7 @@ Well  'Free' as in you  don't pay to use it, but like everything there is still 
 
 * Recent changes to all-in-one installer. 
 * POSS now uses same file structure as PE.
-* You lose some of the tools, but not all of them.
+* You loose some of the tools, but not all of them.
 * Community modules and work make up for a lot of the gaps.
 
 ~~~SECTION:notes~~~
