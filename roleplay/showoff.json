@@ -1,0 +1,37 @@
+{
+  "name": "cote",
+  "description": "A presentation to discuss the usage of Puppet for its added value tools and solutions and not just as a configuration managment tool.", 
+  "protected": ["presenter", "onepage"],
+  "user": "presenter",
+  "password": "changeme",
+  "feedback": false,
+  "sections": [
+
+    "intro/Cover.md",
+    "intro/Aboutme.md", 
+    "intro/Intro.md",
+   
+    "start/Section.md",
+    "start/Problems.md",
+    "start/Solutions.md",  
+    "start/TheTools.md",
+    
+    "adoption/Section.md",
+    "adoption/Whatif.md",
+    "adoption/Installation.md",
+    "adoption/Poss.md",
+    "adoption/Masterless.md",
+    "adoption/DSL.md",
+    "adoption/Facter.md",
+    "adoption/PuppetResources.md",
+    "adoption/PuppetDB.md",
+    "adoption/MCollective.md",
+    "adoption/Reports.md",
+    "adoption/MonitorAudit.md",
+
+    "outro/Section.md",
+    "outro/Whatif.md",
+    "outro/further.md",
+    "outro/credits.md"
+    ]
+}
