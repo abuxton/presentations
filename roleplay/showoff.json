@@ -8,7 +8,7 @@
   "sections": [
 
     "intro/Cover.md",
-    "intro/Aboutme.md", 
+    "../shared/Aboutme.md", 
     "intro/Intro.md",
    
     "start/Section.md",
