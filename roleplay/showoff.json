@@ -11,27 +11,8 @@
     "../shared/Aboutme.md", 
     "intro/Intro.md",
    
-    "start/Section.md",
-    "start/Problems.md",
-    "start/Solutions.md",  
-    "start/TheTools.md",
-    
-    "adoption/Section.md",
-    "adoption/Whatif.md",
-    "adoption/Installation.md",
-    "adoption/Poss.md",
-    "adoption/Masterless.md",
-    "adoption/DSL.md",
-    "adoption/Facter.md",
-    "adoption/PuppetResources.md",
-    "adoption/PuppetDB.md",
-    "adoption/MCollective.md",
-    "adoption/Reports.md",
-    "adoption/MonitorAudit.md",
 
     "outro/Section.md",
-    "outro/Whatif.md",
-    "outro/further.md",
     "outro/credits.md"
     ]
 }
