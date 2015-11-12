@@ -3,7 +3,7 @@
 ## The architects approach, maybe!##
 
 * Identifying the Roles first.
-* Using profiles as placeholders?
+* Using Rroles & Profiles as placeholders?
 * Its a little like minecraft! 
 * Does this work for everyone.
 
