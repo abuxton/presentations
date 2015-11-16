@@ -1,2 +1,2 @@
 <!SLIDE center subsection>
-# How do profiles fit in?
+# How do 'Profiles' fit in?
