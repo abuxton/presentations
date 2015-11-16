@@ -6,7 +6,6 @@ Profiles as place holders are more dificult concept, but not all of them.
 
 * Psuedo Puppet code!
 * Setting expectation.
-* Planning.
 * Prototyping.
 
 
