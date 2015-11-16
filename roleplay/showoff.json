@@ -1,6 +1,6 @@
 {
-  "name": "cote",
-  "description": "A presentation to discuss the usage of Puppet for its added value tools and solutions and not just as a configuration managment tool.", 
+  "name": "Roles First Implementation",
+  "description": "Discussion on Roles and Profiles lead Puppet implimentation.", 
   "protected": ["presenter", "onepage"],
   "user": "presenter",
   "password": "changeme",

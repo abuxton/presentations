@@ -2,7 +2,7 @@
 # Place Holders #
 ## Yeah, literally bookmarks. ##
 
-Profiles as placeholders are harder, but not all of them. 
+Profiles as place holders are more dificult concept, but not all of them. 
 
 * Psuedo Puppet code!
 * Setting expectation.
