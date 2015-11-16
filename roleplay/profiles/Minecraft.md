@@ -4,11 +4,10 @@
 
 You've either played or you have not. But every thing in minecraft is leyars of buildings blocks in collections.
 
-* Your mountain is the same components as my mountain.
-* Sorry I said mountain, I meant webserver.
+* Your Crafting Table is the same components as mine.
+* Sorry I said Crafting Table, I meant Jenkins server!
 
-So you can tell me how to build your mountain/webserver. We can work out if your right later, and we'll recognise the blocks we need together.
-
+![MInecraft Crafting Table](../_images/crafting-table.png)
 ~~~SECTION:notes~~~
 notes for presenter mode
 ~~~ENDSECTION~~~
