@@ -1,11 +1,12 @@
 <!SLIDE>
 # Credits #
-## Yeah i'm not that talented! ##
+## Yeah I'm not that talented! ##
 
-* Craig dunn
-* Gary Larizza
-* Xkcd
-* Minecraft
+* [Craig dunn](https://puppetlabs.com/presentations/designing-puppet-rolesprofiles-pattern)
+* [Gary Larizza](https://puppetlabs.com/blog/git-workflows-puppet-and-r10k)
+* [Minecraft](http://www.pixelpapercraft.com/print/minecraft-block)
+* 
+
 
 
 
