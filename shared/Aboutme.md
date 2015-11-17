@@ -7,7 +7,8 @@
 ### Feel free to buy me a coffee.
 
 #### @digitaladept
-#### abuxton on github
+#### https://github.com/abuxton
+
 
 ~~~SECTION:notes~~~
 
