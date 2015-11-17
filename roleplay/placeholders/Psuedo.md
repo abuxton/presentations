@@ -16,7 +16,7 @@
 
       }
 
-Seriously I don't have 2 heads
+
 ~~~SECTION:notes~~~
 notes for presenter mode
 ~~~ENDSECTION~~~
