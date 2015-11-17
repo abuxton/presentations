@@ -11,7 +11,7 @@
         ]
 
         notify{ ${classes}:
-          message => "Inlcude ${title}",
+          message => "Include ${title}",
         }
 
       }
