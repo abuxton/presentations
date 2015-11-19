@@ -1,9 +1,9 @@
 <!SLIDE>
-# Know your roles! #
+# Know your Roles! #
 ## Your not shooting for the unknown ##
 
-* Seriously who ever started with Puppet in a truley Green field?
-* Green, brown, blue or pink it does not matter!
+* Seriously who ever started with Puppet in a truley green field?
+* Load balancers, applications, environments, datacenters, clients and more!
 
 
 ~~~SECTION:notes~~~
