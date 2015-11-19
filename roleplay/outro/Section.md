@@ -1,2 +1,2 @@
 <!SLIDE center subsection>
-# Something to Think about!
+# Something to think about!
