@@ -8,7 +8,6 @@ You won't recognise all the roles first time, but you can start by calling out t
 * They change. 
 * They don't all survive!
 * The ones you missed may surface at anytime!
-* You don't always need to Puppetize them.
 
 ~~~SECTION:notes~~~
 notes for presenter mode
