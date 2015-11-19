@@ -6,7 +6,8 @@
 * [Gary Larizza](https://puppetlabs.com/blog/git-workflows-puppet-and-r10k)
 * [Minecraft](http://www.pixelpapercraft.com/print/minecraft-block)
 * [XKCD](https://xkcd.com/1597)
-
+* [
+Title image - Ger Apeldoorn](http://puppetspecialist.nl/MPIpres/#1)
 
 
 
