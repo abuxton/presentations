@@ -1,12 +1,8 @@
 <!SLIDE>
-# Role and Profiles lead development! #
-## The architects approach, maybe!##
+# Complimentary not Competatative #
+## Discussion of using seemingly competative technology complimentarily!
 
-* Identifying the Roles first.
-* Using Roles & Profiles as placeholders?
-* Its a little like minecraft! 
-* Does this work for everyone.
-
+mplimentary](../_images/muppetspairprogramming.jpg)](../_avi/muppetspairprogramming.mp4)
 
 
 ~~~SECTION:notes~~~
