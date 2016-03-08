@@ -1,2 +1,2 @@
 <!SLIDE center subsection>
-# Edit me
+# Seemingly Competative Technology!
