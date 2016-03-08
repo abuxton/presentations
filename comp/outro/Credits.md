@@ -1,16 +1,1 @@
-<!SLIDE>
-# Credits #
-## Yeah I'm not that talented! ##
-
-
-
-
-~~~SECTION:notes~~~
-notes for presenter mode
-~~~ENDSECTION~~~
-
-~~~SECTION:handouts~~~
-this will be additional in print
-
-~~~ENDSECTION~~~
-
+Statler and Waldorf Turn on their Computer-kLYAK1_r0Zg.mp4
