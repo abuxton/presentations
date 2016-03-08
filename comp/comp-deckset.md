@@ -48,3 +48,11 @@ Feel free to buy me a coffee and ask my opinion on anything technology, devops, 
 
 ---
 
+#Well lets make some decisions
+
+* What?
+* Why?
+* Where?
+
+---
+
