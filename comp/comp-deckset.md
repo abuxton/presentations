@@ -43,3 +43,8 @@ Feel free to buy me a coffee and ask my opinion on anything technology, devops, 
 
 ---
 
+#Complimentary usage! 
+## It does not have to be one or the other! 
+
+---
+
