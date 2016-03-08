@@ -28,5 +28,18 @@ Feel free to buy me a coffee and ask my opinion on anything technology, devops, 
 
 ---
 
+# Seemingly Competative Technology!
+---
 
+![Competative forces](https://raw.githubusercontent.com/abuxton/presentations/master/comp/_images/operating-system.png)
+
+---
+
+![origional](https://raw.githubusercontent.com/abuxton/presentations/master/comp/_images/ITAutomation.png)
+
+---
+
+![fit](https://raw.githubusercontent.com/abuxton/presentations/master/comp/_images/CMs.jpg)
+
+---
 
