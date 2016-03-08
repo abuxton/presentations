@@ -14,5 +14,19 @@ Feel free to buy me a coffee and ask my opinion on anything technology, devops, 
 
 ![inline](https://github.com/abuxton/presentations/blob/master/comp/_avi/muppetspairprogramming.mp4?raw=true)
 
----  
+---
+
+# Inital Thoughts! #
+## Lets see whose on what side of the room? ##
+
+* Platform architecture.
+* Operating systems.
+* Programming languages.
+* Design patterns.
+* Methodology.
+* Daddy or Chips?
+
+---
+
+
 
