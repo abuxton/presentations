@@ -1,13 +1,13 @@
 <!SLIDE>
 # Inital Thoughts! #
-## Lets see hwose on wht side of the room? ##
+## Lets see whose on what side of the room? ##
 
 * Platform architecture.
 * Operating systems.
 * Programming languages.
 * Design patterns.
 * Clouds.
-* Methodolies.
+* Methodology.
 * Daddy or Chips?
 
 
