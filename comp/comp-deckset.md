@@ -5,7 +5,7 @@ slidenumbers: true
 ---
 #Complimentary not Competitive!
 ##"Discussion of using seemingly competitive technology complimentarily!",
-![Complimentary](https://github.com/abuxton/presentations/blob/master/comp/_images/muppetspairprogramming.jpg?raw=true)
+![Complimentary](_images/muppetspairprogramming.jpg)
 
 ---
 # Introductions first! 
@@ -19,7 +19,7 @@ Feel free to buy me a coffee and ask my opinion on anything technology, devops, 
 ---
 ## Discussion of using seemingly competitive technology complimentarily!
 
-![inline](https://github.com/abuxton/presentations/blob/master/comp/_avi/muppetspairprogramming.mp4?raw=true)
+![inline](_avi/muppetspairprogramming.mp4)
 
 ---
 # Inital Thoughts! #
@@ -36,13 +36,13 @@ Feel free to buy me a coffee and ask my opinion on anything technology, devops, 
 # Seemingly Competitive Technology!
 
 ---
-![Competitive forces](https://raw.githubusercontent.com/abuxton/presentations/master/comp/_images/operating-system.png)
+![Competitive forces](_images/operating-system.png)
 
 ---
-![original](https://raw.githubusercontent.com/abuxton/presentations/master/comp/_images/ITAutomation.png)
+![original](_images/ITAutomation.png)
 
 ---
-![fit](https://raw.githubusercontent.com/abuxton/presentations/master/comp/_images/CMs.jpg)
+![fit](_images/CMs.jpg)
 #Complimentary usage! 
 ### It does not have to be one or the other! 
 
