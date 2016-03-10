@@ -2,12 +2,12 @@ autoscale: true
 footer: @digitaladept [http://abuxton.github.io]
 slidenumbers: true
 
+---
 #Complimentary not Competitive!
 ##"Discussion of using seemingly competitive technology complimentarily!",
 ![Complimentary](https://github.com/abuxton/presentations/blob/master/comp/_images/muppetspairprogramming.jpg?raw=true)
 
 ---
-
 # Introductions first! 
 
 A need to support my coffee addiction has taken me around the world working with and supporting all manner of development teams. The same addiction has supported me through long days and nights of platform integrations, fire fighting and launch management for various development teams in startups, gaming, finance and most fields of enterprise.
@@ -22,7 +22,6 @@ Feel free to buy me a coffee and ask my opinion on anything technology, devops, 
 ![inline](https://github.com/abuxton/presentations/blob/master/comp/_avi/muppetspairprogramming.mp4?raw=true)
 
 ---
-
 # Inital Thoughts! #
 ## Lets see whose on what side of the room? ##
 
@@ -34,23 +33,16 @@ Feel free to buy me a coffee and ask my opinion on anything technology, devops, 
 * Daddy or Chips?
 
 ---
-
 # Seemingly Competitive Technology!
 
 ---
-
 ![Competitive forces](https://raw.githubusercontent.com/abuxton/presentations/master/comp/_images/operating-system.png)
 
 ---
-
 ![original](https://raw.githubusercontent.com/abuxton/presentations/master/comp/_images/ITAutomation.png)
 
 ---
-
 ![fit](https://raw.githubusercontent.com/abuxton/presentations/master/comp/_images/CMs.jpg)
-
---
-
 #Complimentary usage! 
 ### It does not have to be one or the other! 
 
@@ -60,7 +52,6 @@ Feel free to buy me a coffee and ask my opinion on anything technology, devops, 
 ###Relationships within organisations as well as between products and their implementations
 
 ---
-
 #Building those relationships
 
 So you want to use Docker in production, no lets not get dragged into that argument too. Lets consider what the statement infers you need to consider.
@@ -72,7 +63,6 @@ So you want to use Docker in production, no lets not get dragged into that argum
 * Monitoring all the things.
 
 ---
-
 #Then who and what goes where! 
 
 * Provisioning the Docker container server, and the node. Provisioning or orchestration (VMware AWS, Azure, Openstack, cobbler, or Razor)
@@ -82,7 +72,6 @@ So you want to use Docker in production, no lets not get dragged into that argum
 * Monitoring, more provisioning and configuration management.
 
 ---
-
 #From where I'm standing
  * Provision a server to be a Puppet master, and a management node.
  * Configure the management node with Puppet to talk to the cloud or virtualizations service of your choice.
@@ -92,7 +81,6 @@ So you want to use Docker in production, no lets not get dragged into that argum
  * Then the containers can be managed by what ever the container owners desire, driven by integration scripts or orchestration they choose. 
 
 ---
-
 #Look Mom no competition!
 
 ##Thats right, Puppet as a key technology but complimented. 
@@ -102,7 +90,6 @@ So you want to use Docker in production, no lets not get dragged into that argum
 ^ Recognising the boundaries of each product, communicating their sphere of responsibility with each party in a community or organisation and managing, monitoring and reacting to changes in that sphere. Complimentarily not Competitively!. 
 
 ---
-
 #How do you use this idea?
 How do I start with Puppet is one of those questions we are asked every day! 
 
@@ -126,7 +113,6 @@ If you figure out how to do that first time, tell me how!
 #Where do we start?
  
 ___
-
 #Q&A?
 ##Thank you
 
