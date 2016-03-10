@@ -10,7 +10,8 @@ slidenumbers: true
 A need to support my coffee addiction has taken me around the world working with and supporting all manner of development teams. The same addiction has supported me through long days and nights of platform integrations, fire fighting and launch management for various development teams in startups, gaming, finance and most fields of enterprise.
 
 Feel free to buy me a coffee and ask my opinion on anything technology, devops, or system architecture and  configuration management.
-![right](/Users/abuxton/Dropbox/profile/pictures/me_fire_cmoss_e42014.full.jpg)
+
+![right](../_shared/_images/me_fire_cmoss_e42014.jpg)
 
 ---
 #Audit, but its not gone any where!
@@ -264,27 +265,22 @@ So if you've not spotted them already I'm going to call them out!
 
 ---
 #Q&A
-##Thats all folks!
 
+
+##Thats all folk, Thank you!
 Its either time for some one else to bore you to sleep, or time to go to the bar!
-#Thank you!
 
 ---
 #Credits
+**links**
 
-###links
-[https://github.com/abuxton/puppet_audit](https://github.com/abuxton/puppet_audit)
+* [https://github.com/abuxton/puppet_audit](https://github.com/abuxton/puppet_audit)
 
-###Images
+**Images**
 
-* whatif.xkcd.com
-* <a href="https://octodex.github.com/images/hubot.jpg" target="_blank">https://octodex.github.com/images/hubot.jpg</a>
-* <a href="http://charlottemoss.co.uk" target="_blank">http://charlottemoss.co.uk</a>
+* [whatif.xkcd.com](whatif.xkcd.com)
+* [http://charlottemoss.co.uk](http://charlottemoss.co.uk)
 
+**Reference**
 
-<h4>Reference</h4>
-
-
-* <a href="https://github.com/puppetlabs/showoff" target="_blank">https://github.com/puppetlabs/showoff</a>
-* <a href="https://github.com/philsturgeon/dbad/blob/master/LICENSE-en.md" target="_blank">https://github.com/philsturgeon/dbad/blob/master/LICENSE-en.md
-
+* [https://github.com/philsturgeon/dbad/blob/master/LICENSE-en.md](target="_blank">https://github.com/philsturgeon/dbad/blob/master/LICENSE-en.md)
