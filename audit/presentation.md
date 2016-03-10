@@ -3,7 +3,7 @@ footer: @digitaladept [http://abuxton.github.io]
 slidenumbers: true
 ---
 #Puppet Audit
-###A simple solution to deprecation!
+###An alternative approach!
 
 ---
 #Introductions
@@ -14,59 +14,59 @@ Feel free to buy me a coffee and ask my opinion on anything technology, devops, 
 ![right](../_shared/_images/me_fire_cmoss_e42014.jpg)
 
 ---
-#Audit, but its not gone any where!
-###Don't panic, you did not miss any thing!###
+#Audit, what are we talking about?
 
-The Puppet_audit module, a module that does nothing really special.
-Although it does lets you keep a functionality you possibly not yet used, the audit metaparameter.
-
----
-#Audit Metaparamter
-
+* Auditing single states! in a controlled limited use.
+* Currently, a meta parameter of all puppet resources.
+* Flagged for deprecation due to its repeated abuse.
 ```
-    file{'/path/to/a/file':
+    file{'/path/to/a/folder':
       ensure => present,
-      audit  => true,
+      audit  => all,
+      recurse => true,
     }
 ```
-* Why did we need to?
-* How did we choose to replace it?
-* If you did use it you'll be glad we did!
-* How do you make use of it?
+
+
+---
+#[fit]Don't panic, you did not miss any thing!
+
+
+* Why are we discussing replacing it?
+* What about a its replacement?.
+* How do you make use of the alternative.
 * Gotchas!.
+
 
 ---
 #WHY?
-###Deprecating a feature, cut it, its not welcome any more!
+###Possible deprecation, but also a  new way of thinking.
 
 > This was added for one customer and is no longer used or supported in PE. We should deprecate it.
 -- Eric0
-
-
 [https://tickets.puppetlabs.com/browse/PUP-893](https://tickets.puppetlabs.com/browse/PUP-893)
 
----
-#What about a Replacement?
-
-###Erm excuse me!, we actually use it alot!
-
-But we want to use it?
-* We need to ensure some compliance?
-* You published <a href="https://docs.puppetlabs.com/pe/latest/compliance_alt.html" target="_blank">https://docs.puppetlabs.com/pe/latest/compliance_alt.html</a>, but what does that mean in practice?
+>You are maintaining concrete baselines in readable Puppet code, which can be audited via version control records
+-- [https://docs.puppetlabs.com/pe/latest/compliance_alt.html](https://docs.puppetlabs.com/pe/latest/compliance_alt.html)
 
 ---
-#HOW?
+#Other considerations
+###or excuse me!, we actually use it a lot!
 
-#Motivation
+Things we hear from various customers.
+* But we want to use it?
+* We need to ensure some compliance, or auditing?
+* You published [https://docs.puppetlabs.com/pe/latest/compliance_alt.html](https://docs.puppetlabs.com/pe/latest/compliance_alt.html), but what does that mean in practice?
 
-##Purely fulfilling a want!
+---
+#What about it's replacement?
+##Fulfilling a need
 
-So we wrote a module to proviode the some of the former functionality.
-
+So we wrote a module to provide the some of the functionality, but it's a different approach thus it also has it's own implementation work flow.
 
 * Why did we write a module?
 * Why is this not under the Puppetlabs namespace?
-* Whats special about it? hint: nothing!
+* What's special about it? hint: nothing!
 * Why did we do it this way?
 
 
@@ -75,28 +75,19 @@ So we wrote a module to proviode the some of the former functionality.
 
 ---
 ##Some whys and wherefores
-
-<p>So why did we write a module? </p>
-
-
-* Delivery
-
-
-Why defined types and not Types and Providers?
-
-
+**So why did we write a module?**
+* Ease of delivery
+**Why is this not under the Puppetlabs namespace?**
+**Why defined types and not Types and Providers?**
 * We don't reinvent the wheel.
-* Because we said do it like this.
-
-
-But what about supplying the #hash.</p>
-
-* Puppet only cares about what you do?
-> "With great power goes great responsibility" - Excelsior!
---[http://en.wikiquote.org/wiki/Stan_Lee](http://en.wikiquote.org/wiki/Stan_Lee)
+* Because it did not need them in this methodology!
+**But what about supplying the checksum?**
+* Puppet generally only cares about what you tell it, so this implementation makes sure you care.
+> "With great power goes great responsibility" - Excelsior! 
+> -- Stan Lee
 
 ---
-#So what's under the hud?
+#So what's under the hood?
 
 ```   
 define puppet_audit::file(
@@ -123,19 +114,18 @@ define puppet_audit::file(
           default:  {
           ...
 ```
-**Seriously thats all!**
+**Seriously thats all!** Use of an existing resource type **file**
 
 ---
-#But what do you notice?#
+#[fit]But what do you notice?
+
 It breaks one rule, **its not unique**, it will cause #duplicate declaration#  errors!
 
 ---
-
 #Audit as a Module
+##What we left out?
 
-##What we left out of the package?
-
-We deliverd this as a module, but the repository as some extras that you might like to explore.<
+We delivered this as a module, but the repository as some extras that you might like to explore.
 
 ```#tree ~/abuxton-puppet_audit
       ├─... normal module files and folders you know the ones!
@@ -177,11 +167,17 @@ We deliverd this as a module, but the repository as some extras that you might l
 So what does it make you care about?
 
 * All the things audit used to do by default, so these are over heads.
-* Tags are not necessery, they are desirable for reporting as its not always the implimentors who care.
+* Tags are not necessary, they are desirable for **reporting** and **orchestration** as its not always the implementors who care.
 
 ---
-#Providing Data
-##Auditing with Hiera
+#Lightening the Load
+So how do we lighten the load of managing audits? simple more Hiera.
+
+* Gives us the ability to set the resource once, and then change the audit to known states. 
+* Allows us to separate those who care about its state from the people implementing the puppet code.
+
+---
+#Providing Data with Hiera
 
 ```
   'profiles::puppet_audit_files':
@@ -203,18 +199,8 @@ So what does it make you care about?
       target: '../boot/grub/grub.conf'
   hieradata/global.yaml 
 ```
-
-So how do we lighten the load of managing audits? simple Hiera.
-
-
-* Gives us the ability to set the resource once, and then change the audit to known states. 
-* Allows us to seperate those who care about its state from the peopel implimenting the puppetcode.
-
 ---
-
-#Create_resource
-##building the resources from Hiera data
-
+#Building the resources from Hiera data
 ```
   # Setup local hash variables pulling data from Hiera hashes.
 
@@ -224,32 +210,33 @@ So how do we lighten the load of managing audits? simple Hiera.
 
   create_resources('puppet_audit::file', $security_files_hash,$security_files_defaults)
 ```
-* The use of hiera hash fucntion lets us pull the files from all levels of the hierachy via the various logic switches and then generat the audits.
-* We can even include a default set of parameters, these should be in hiera too.
+* The use of hiera_hash() function lets us pull the files from all levels of the hierarchy via the various logic switches and then generate the audits.
+* We can even include a default set of parameters, these could be in Hiera too.
 
 ---
 #Profiles
 ##how to decouple the overheads
 
+* We can introduce the audit at any point in the Roles.
+* Coupled with ordering or staging you can then, eliminate changes to those files by developers or highlight the requirement to audit those files.
+* Use of inheritance can be made to pass the torch of ownership should you require it.
+
+---
+#Profile example
 ```class profiles::puppet_audit {
   include puppet_audit
 
   # Setup local hash variables pulling data from Hiera hashes.
-
   $security_files_hash = hiera_hash('profiles::puppet_audit_files',{})
   $security_directories_hash = hiera_hash('profiles::puppet_audit_directories',{})
   $security_links_hash = hiera_hash('profiles::puppet_audit_links',{})
 
   # Check files, directories, and links using create resources function.
-
   create_resources('puppet_audit::file', $security_files_hash)
   create_resources('puppet_audit::directory', $security_directories_hash)
   create_resources('puppet_audit::link', $security_links_hash)
 }
 ```
-
-* We can introduce the audit at any point in the role.
-* Coupled with ordering or staging you can then, eliminate changes to those files by developers or highlight teh requirment to audit those files.
 
 ---
 #GOTCHAs
@@ -258,9 +245,9 @@ So how do we lighten the load of managing audits? simple Hiera.
 So if you've not spotted them already I'm going to call them out!
 
 * Duplicate resources, not only allowed but determined to hit them.
-* Lots of front load on the requirment, thats right you have to generate the md5, know the desired group, owner and mode etc
-* You'll need to comunicate best practice for using them.
-* The implimentation could encourage inheritance of the profile for that a resource can be overridden, I'm not sure this is a bad thing, in this one case!
+* Lots of front load on the requirement, thats right you have to generate the md5, know the desired group, owner and mode etc
+* You'll need to communicate best practice for using them.
+* The implementation could encourage inheritance of the profile for that a resource can be overridden, I'm not sure this is a bad thing, in this one case!
 
 
 ---
