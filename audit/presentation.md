@@ -4,6 +4,7 @@ slidenumbers: true
 ---
 #Puppet Audit
 ###An alternative approach!
+![right fit original](_images/hubot.png)
 
 ---
 #Introductions
@@ -54,6 +55,7 @@ Feel free to buy me a coffee and ask my opinion on anything technology, devops, 
 ###or excuse me!, we actually use it a lot!
 
 Things we hear from various customers.
+
 * But we want to use it?
 * We need to ensure some compliance, or auditing?
 * You published [https://docs.puppetlabs.com/pe/latest/compliance_alt.html](https://docs.puppetlabs.com/pe/latest/compliance_alt.html), but what does that mean in practice?
@@ -78,6 +80,7 @@ So we wrote a module to provide the some of the functionality, but it's a differ
 **So why did we write a module?**
 * Ease of delivery
 **Why is this not under the Puppetlabs namespace?**
+* The resource application is core code, it doe snot need to be a supported module!
 **Why defined types and not Types and Providers?**
 * We don't reinvent the wheel.
 * Because it did not need them in this methodology!
@@ -102,13 +105,13 @@ define puppet_audit::file(
           '': {
 
             file { "${filepath}" :
-              ensure  =&gt; file,
-              content =&gt; "${fileMD5}",
-              group   =&gt; "${group}",
-              mode    =&gt; "${mode}",
-              owner   =&gt; "${owner}",
-              noop    =&gt; true,
-              replace =&gt; true,
+              ensure  => file,
+              content => "${fileMD5}",
+              group   => "${group}",
+              mode    => "${mode}",
+              owner   => "${owner}",
+              noop    => true,
+              replace => true,
             }
           }
           default:  {
@@ -119,7 +122,7 @@ define puppet_audit::file(
 ---
 #[fit]But what do you notice?
 
-It breaks one rule, **its not unique**, it will cause #duplicate declaration#  errors!
+It breaks one rule, **its not unique**, it will cause **duplicate declaration**  errors!
 
 ---
 #Audit as a Module
@@ -157,11 +160,11 @@ We delivered this as a module, but the repository as some extras that you might 
 #Manifests code
 
 ```     puppet_audit::file { "/tmp/test":
-          fileMD5 =&gt; "{md5}d41d8cd98f00b204e9800998ecf8427e",
-          group   =&gt; "root",
-          owner   =&gt; "root",
-          mode    =&gt; "0777",
-          tags    =&gt; "",
+          fileMD5 => "{md5}d41d8cd98f00b204e9800998ecf8427e",
+          group   => "root",
+          owner   => "root",
+          mode    => "0777",
+          tags    => "",
           }```
 
 So what does it make you care about?
@@ -223,7 +226,9 @@ So how do we lighten the load of managing audits? simple more Hiera.
 
 ---
 #Profile example
-```class profiles::puppet_audit {
+
+```
+class profiles::puppet_audit {
   include puppet_audit
 
   # Setup local hash variables pulling data from Hiera hashes.
@@ -265,7 +270,7 @@ Its either time for some one else to bore you to sleep, or time to go to the bar
 
 **Images**
 
-* [whatif.xkcd.com](whatif.xkcd.com)
+* [https://hubot.github.com/](https://hubot.github.com/)
 * [http://charlottemoss.co.uk](http://charlottemoss.co.uk)
 
 **Reference**
