@@ -10,6 +10,7 @@ slidenumbers: true
 A need to support my coffee addiction has taken me around the world working with and supporting all manner of development teams. The same addiction has supported me through long days and nights of platform integrations, fire fighting and launch management for various development teams in startups, gaming, finance and most fields of enterprise.
 
 Feel free to buy me a coffee and ask my opinion on anything technology, devops, or system architecture and  configuration management.
+![right](/Users/abuxton/Dropbox/profile/pictures/me_fire_cmoss_e42014.full.jpg)
 
 ---
 #Audit, but its not gone any where!
@@ -133,9 +134,9 @@ It breaks one rule, **its not unique**, it will cause #duplicate declaration#  e
 
 ##What we left out of the package?
 
-<p>We deliverd this as a module, but the repository as some extras that you might like to explore.</p>
+We deliverd this as a module, but the repository as some extras that you might like to explore.<
 
-<pre class="highlight"><code class="language-shell">    #tree ~/abuxton-puppet_audit
+```#tree ~/abuxton-puppet_audit
       ├─... normal module files and folders you know the ones!
       ├── hieradata
       │   ├── common.yaml
@@ -156,14 +157,12 @@ It breaks one rule, **its not unique**, it will cause #duplicate declaration#  e
           ├── init.pp
           ├── link.pp
           └── puppet_audit.pp
-          ...```
+          ...
+```
 
 ---
-#Making use of the Audit types
-</div>
-</div>
-<div id="usage_manifest" class="slide " data-transition="none">
-<div class="content " ref="usage/manifest">
+#[fit]Making use of the Audit types
+---
 #Manifests code
 
 ```     puppet_audit::file { "/tmp/test":
@@ -174,18 +173,16 @@ It breaks one rule, **its not unique**, it will cause #duplicate declaration#  e
           tags    =&gt; "",
           }```
 
-<p>So what does it make you care about?</p>
-
+So what does it make you care about?
 
 * All the things audit used to do by default, so these are over heads.
 * Tags are not necessery, they are desirable for reporting as its not always the implimentors who care.
 
 ---
-#providing Data
-
+#Providing Data
 ##Auditing with Hiera
 
-<pre class="highlight"><code class="language-shell">  ---
+```
   'profiles::puppet_audit_files':
     '/etc/passwd':
       fileMD5: '{md5}0c4305ed79b2292299b00ebcb691a0e4'
@@ -203,9 +200,10 @@ It breaks one rule, **its not unique**, it will cause #duplicate declaration#  e
       owner: '0'
       mode: '777'
       target: '../boot/grub/grub.conf'
-  hieradata/global.yaml ```
+  hieradata/global.yaml 
+```
 
-<p>So how do we lighten the load of managing audits? simple Hiera.</p>
+So how do we lighten the load of managing audits? simple Hiera.
 
 
 * Gives us the ability to set the resource once, and then change the audit to known states. 
@@ -213,11 +211,10 @@ It breaks one rule, **its not unique**, it will cause #duplicate declaration#  e
 
 ---
 
-Create_resource
+#Create_resource
+##building the resources from Hiera data
 
-##building the resource from hiera data
-
-<pre class="highlight"><code class="language-puppet">
+```
   # Setup local hash variables pulling data from Hiera hashes.
 
   $security_files_hash = hiera_hash('profiles::puppet_audit_files',{})
@@ -225,17 +222,15 @@ Create_resource
   # Check files, directories, and links using create resources function.
 
   create_resources('puppet_audit::file', $security_files_hash,$security_files_defaults)
-}```
-
-
+```
 * The use of hiera hash fucntion lets us pull the files from all levels of the hierachy via the various logic switches and then generat the audits.
 * We can even include a default set of parameters, these should be in hiera too.
+
 ---
-Profiles
+#Profiles
+##how to decouple the overheads
 
-##how to decouple the obverheads
-
-<pre class="highlight"><code class="language-puppet">class profiles::puppet_audit {
+```class profiles::puppet_audit {
   include puppet_audit
 
   # Setup local hash variables pulling data from Hiera hashes.
@@ -249,41 +244,38 @@ Profiles
   create_resources('puppet_audit::file', $security_files_hash)
   create_resources('puppet_audit::directory', $security_directories_hash)
   create_resources('puppet_audit::link', $security_links_hash)
-}```
-
+}
+```
 
 * We can introduce the audit at any point in the role.
 * Coupled with ordering or staging you can then, eliminate changes to those files by developers or highlight teh requirment to audit those files.
----
-GOTCHAs
 
+---
+#GOTCHAs
 ##Things to bare in mind
 
-<p>So if you've not spotted them already I'm going to call them out.</p>
-
+So if you've not spotted them already I'm going to call them out!
 
 * Duplicate resources, not only allowed but determined to hit them.
 * Lots of front load on the requirment, thats right you have to generate the md5, know the desired group, owner and mode etc
 * You'll need to comunicate best practice for using them.
-* The implimentation could encourage inheritance of the profile o that a resource can be overridden, i'm not sure this is a bad thing?
+* The implimentation could encourage inheritance of the profile for that a resource can be overridden, I'm not sure this is a bad thing, in this one case!
 
 
 ---
+#Q&A
 ##Thats all folks!
 
-<p>Its either time for some one else to bore you to sleep, or time to go to the bar!</p>
+Its either time for some one else to bore you to sleep, or time to go to the bar!
+#Thank you!
 
 ---
 #Credits
 
-links
-forge.puppetlabs.com/abuxton/puppet_audit
-* <a href="https://github.com/abuxton/puppet_audit" target="_blank">https://github.com/abuxton/puppet_audit</a>
-* <a href="https://github.com/abuxton/module_skeleton" target="_blank">https://github.com/abuxton/module_skeleton</a>
+###links
+[https://github.com/abuxton/puppet_audit](https://github.com/abuxton/puppet_audit)
 
-
-<h4>Images</h4>
-
+###Images
 
 * whatif.xkcd.com
 * <a href="https://octodex.github.com/images/hubot.jpg" target="_blank">https://octodex.github.com/images/hubot.jpg</a>
