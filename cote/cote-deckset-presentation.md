@@ -25,3 +25,25 @@ Feel free to buy me a coffee and ask my opinion on anything technology, devops, 
 * What comes first?
 * What is the best approach to adoption? 
 * What if I tell you there is no single answer?
+
+---
+#Where do you start?
+
+---
+# Problems #
+## Do we always have them? ##
+
+* What problems does configuration management solve?
+* What tools does it configuration management give you to help?
+* What if you don't have any problems right now?
+
+^Problems
+* Auditing - facter for infrastructure, PuppetDB for auditing estate,  report handlers for code application
+* Reporting - Report handlers
+* monitoriing - console, and report features
+
+^Tools
+* Tools deployment - Facter, puppet lib, 
+* Tooling - Puppet resource
+* Facter
+* command & control - mcollective
