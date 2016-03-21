@@ -82,34 +82,19 @@ Puppet comes with solutions for some of the things! I'm going to talk about them
 ^What if I told you a configuration management tool does not have to be used for management? or even configuration.
 
 ---
-# Installation #
-## Well it is the obvious place to start! ##
-
-Lets be honest this is the easiest thing to over come, no one in the software space is making it had to install their software anymore!
-
----
-# Puppet Open Source Solution #
-
-Well  'Free' as in you  don't pay to use it, but like everything there is still an investment.
-* Recent changes to all-in-one installer. 
-* POSS now uses same file structure as PE.
-* You loose some of the tools, but not all of them.
-* Community modules and work make up for a lot of the gaps. 
-
----
-
-# Master less #
-## OK I'm stealing all your questions! ##
-
-It's O.K, you just lose some of the tools, but not all of them.  
-
----
 # Domain Specific Language (DSL) #
 ## One 'syntax' to rule them all! ##
 
 * No I do not mean only the Puppet DSL.
 * No I'm not about to say go use Ruby. But I am going to mention Ruby. 
-* I am going to tell you its good to make a choice.
+* I am going to tell you its good to make a choice!
+
+---
+# Installation #
+## Well it is the obvious place to start! ##
+
+Lets be honest this is the easiest thing to over come, no one in the software space is making it had to install their software anymore!
+but this is one of the regular **Chicken or Eggs** we all face.
 
 ---
 # Facter #
@@ -145,19 +130,39 @@ Now we even have the [Puppet Query Language*](https://docs.puppetlabs.com/puppet
 # MCollective #
 ## Pulling strings with Puppet! ##
 
-MCollective, Puppet enterprise takes the hard work out of deploying MCollective and with coming releases we will expose more of the GUI for driving Orchestration from the console.
+MCollective, Puppet enterprise takes the hard work out of deploying MCollective and with coming releases we will expose more of the GUI for driving orchestration from the console.
+
 ---
 #Reporting
 
-Puppet reports everything, you decide where to and how.
+* Puppet reports everything, you decide where to and how.
+* Puppets actions send by default to OS system logging as a standard, but you can control this too.
+* Full puppet reports can be post processed to any system of your choice.
+* 
 
 ---
 #Auditing
 ##Puppet can Audit, but it's often abused and misused. 
 
-* Audit distinct resources, 
+* Audit distinct resources
 * Understand it audits every time it runs.
 * Understand the different over heads for the different audit mechanisms.
+
+---
+# Puppet Open Source Solution #
+
+Well  'Free' as in you  don't pay to use it, but like everything there is still an investment.
+* Recent changes to all-in-one installer. 
+* POSS now uses same file structure as PE.
+* You loose some of the tools, but not all of them.
+* Community modules and work make up for a lot of the gaps. 
+
+---
+
+# Master less #
+## OK I'm stealing all your questions! ##
+
+It's O.K, you just lose some of the tools, but not all of them.  
 
 ---
 # There is no Spoon! #
