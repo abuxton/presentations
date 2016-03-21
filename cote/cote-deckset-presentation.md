@@ -75,6 +75,8 @@ Puppet comes with solutions for some of the things! I'm going to talk about them
 ---
 # Adoption, use all the things!
 
+![cote fit original right](_images/hubot.png)
+
 ---
 
 ![whatif.xkcd original fit](_images/whatif-logo-xkcd.png)
