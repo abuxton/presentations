@@ -95,7 +95,7 @@ Puppet comes with solutions for some of the things! I'm going to talk about them
 # Installation #
 ## Well it is the obvious place to start! ##
 
-Lets be honest this is the easiest thing to over come, no one in the software space is making it had to install their software anymore!
+Lets be honest this is the easiest thing to over come, no one in the software space is making it hard to install their software anymore!
 but this is one of the regular **Chicken or Eggs** we all face.
 
 ---
@@ -132,7 +132,8 @@ Now we even have the [Puppet Query Language*](https://docs.puppetlabs.com/puppet
 # MCollective #
 ## Pulling strings with Puppet! ##
 
-MCollective, Puppet enterprise takes the hard work out of deploying MCollective and with coming releases we will expose more of the GUI for driving orchestration from the console.
+MCollective, Puppet enterprise takes the hard work out of deploying MCollective and with coming releases Puppet will expose more of the GUI for driving orchestration from the console.
+
 
 ---
 #Reporting
@@ -149,6 +150,22 @@ MCollective, Puppet enterprise takes the hard work out of deploying MCollective 
 * Audit distinct resources
 * Understand it audits every time it runs.
 * Understand the different over heads for the different audit mechanisms.
+
+---
+#Application Orchestration
+## Deployment workflow management as a Service
+
+* Requires producers and consumers.
+* Although part of teh supported product its not widely used in anger 'yet'.
+* when it is, it should be accompanied by community support.
+
+---
+#Community Supported solutions
+## Do not lay the same eggs! 
+
+* Forge.puppetlabs.com
+* github.com
+* internal .gov projects.
 
 ---
 # Puppet Open Source Solution #
