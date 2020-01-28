@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "DavidAnson.vscode-markdownlint",
+        "donjayamanne.githistory",
+        "Gruntfuggly.todo-tree",
+        "spywhere.whiteviz",
+        "streetsidesoftware.code-spell-checker",
+        "vknabel.vscode-swift-development-environment",
+        "waderyan.gitblame",
+        "yzhang.markdown-all-in-one"
+    ]
+}
