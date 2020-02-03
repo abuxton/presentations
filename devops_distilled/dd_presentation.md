@@ -2,10 +2,9 @@ autoscale: true
 footer: @digitaladept [http://abuxton.github.io]
 slidenumbers: true
 
----
 # DevOps Distilled
 ### The Essance of DevOps! and no I don't mean sweat and toil.
-![right fit original](_images/hubot.png)
+![right fit original](_images/devops-ipa.jpg)
 
 ---
 # Introductions
