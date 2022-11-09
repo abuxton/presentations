@@ -1,4 +1,4 @@
-autoscale: true 
+autoscale: true
 footer: @digitaladept [http://abuxton.github.io]
 slidenumbers: true
 
@@ -8,12 +8,6 @@ slidenumbers: true
 ![Complimentary](_images/muppetspairprogramming.jpg)
 
 ---
-# Introductions first! 
-
-A need to support my coffee addiction has taken me around the world working with and supporting all manner of development teams. The same addiction has supported me through long days and nights of platform integrations, fire fighting and launch management for various development teams in startups, gaming, finance and most fields of enterprise.
-
-Feel free to buy me a coffee and ask my opinion on anything technology, devops, or system architecture and  configuration management.
-
 
 
 ---
@@ -43,8 +37,8 @@ Feel free to buy me a coffee and ask my opinion on anything technology, devops, 
 
 ---
 ![fit](_images/CMs.jpg)
-#Complimentary usage! 
-### It does not have to be one or the other! 
+#Complimentary usage!
+### It does not have to be one or the other!
 
 ---
 # But we all need boundaries
@@ -63,7 +57,7 @@ So you want to use Docker in production, no lets not get dragged into that argum
 * Monitoring all the things.
 
 ---
-#Then who and what goes where! 
+#Then who and what goes where!
 
 * Provisioning the Docker container server, and the node. Provisioning or orchestration (VMware AWS, Azure, Openstack, cobbler, or Razor)
 * Installing the container server, and Docker. configuration management.
@@ -78,24 +72,24 @@ So you want to use Docker in production, no lets not get dragged into that argum
  * Use puppet to provision nodes as Puppet master, Docker container server, and the platform servers.
  * Use a boot script to deploy the Puppet master in the cloud, and deploy Puppet on the platform servers.
  * Use Puppet to configure the Docker server, install and configure Docker on the platform nodes or maybe Kubernetes server and agent on the nodes.
- * Then the containers can be managed by what ever the container owners desire, driven by integration scripts or orchestration they choose. 
+ * Then the containers can be managed by what ever the container owners desire, driven by integration scripts or orchestration they choose.
 
 ---
 #Look Mom no competition!
 
-##Thats right, Puppet as a key technology but complimented. 
+##Thats right, Puppet as a key technology but complimented.
 
-**Puppet** features strongly in my stories, but so does  **AWS** or **vSphere**, **Ruby** or **Python** or **Shell scripts**, and **Rightscale** with **Cobbler**. 
+**Puppet** features strongly in my stories, but so does  **AWS** or **vSphere**, **Ruby** or **Python** or **Shell scripts**, and **Rightscale** with **Cobbler**.
 
-^ Recognising the boundaries of each product, communicating their sphere of responsibility with each party in a community or organisation and managing, monitoring and reacting to changes in that sphere. Complimentarily not Competitively!. 
+^ Recognising the boundaries of each product, communicating their sphere of responsibility with each party in a community or organisation and managing, monitoring and reacting to changes in that sphere. Complimentarily not Competitively!.
 
 ---
 #How do you use this idea?
-How do I start with Puppet is one of those questions we are asked every day! 
+How do I start with Puppet is one of those questions we are asked every day!
 
-* Recognise the boundaries of what you want to use Puppet for. 
+* Recognise the boundaries of what you want to use Puppet for.
 * Recognise what the users you want from Puppet and what their stake is.
-* Recognise where the boundaries cross, so you know the hurdle you will have to overcome. 
+* Recognise where the boundaries cross, so you know the hurdle you will have to overcome.
 
 If you figure out how to do that first time, tell me how!
 
@@ -106,12 +100,12 @@ If you figure out how to do that first time, tell me how!
 * Open, and documented API end points for intergration
 * Documented extensions for intergation to third party systems.
 * Transparent intergration to complimentary software **Facter**, and **MCollective**.
-* intergration to standard systems, 
+* intergration to standard systems,
 ^ Puppet do not make a package manager, a service manager or a version control system.
 
 ---
 #Where do we start?
- 
+
 ___
 #Q&A?
 ##Thank you
