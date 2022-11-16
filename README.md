@@ -14,6 +14,9 @@ The presentations were in the majority developed with readability and sharing in
 ## Usage
 
 The various sub folders should have a `README.md` which explains usage
+
+The `./` root folder has an executable `index.html` with remarksj code simply run `python3 -m http.server` or a http server of your choice <https://gist.github.com/abuxton/93a3b64f717f3c7750768441eb1f56c6>
+
 ### Showoff
 
 Showoff is a classroom presnetation tool based on js and developed here <https://github.com/puppetlabs/showoff>.
