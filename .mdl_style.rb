@@ -37,7 +37,7 @@ exclude_rule 'MD004' # Unordered list style
 
 # I prefer two blank lines before each heading.
 exclude_rule 'MD012' # Multiple consecutive blank lines
-
+exlcude_rule 'MD026' # allow special characters on headers
 # I find it necessary to use '<br/>' to force line breaks.
 exclude_rule 'MD033' # Inline HTML
 
