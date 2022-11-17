@@ -1,9 +1,8 @@
-# Introductions First!
-
 .left-column-50[
 
-From a background in scratching around in the guts of disparate and deprecated systems both technological and physical. A former lots of things, project manager, system administrator, university technician, Product Owner, consultant and chef! (The food type).
+# Introductions First!
 
+From a background in scratching around in the guts of disparate and deprecated systems both technological and physical. A former lots of things, project manager, system administrator, university technician, Product Owner, consultant and chef! (The food type).
 
 ]
 .right-column-50[
@@ -12,8 +11,9 @@ From a background in scratching around in the guts of disparate and deprecated s
 <https://abuxton.github.io>
 
 ]
-
+.pull[
 Feel free to buy me a coffee and ask my opinion on anything technology, DevOps, or system architecture and  configuration management.
+]
 
 <!--
 
