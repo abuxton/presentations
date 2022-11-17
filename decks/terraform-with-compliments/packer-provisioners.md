@@ -19,7 +19,7 @@ Packer and Provisioners
 
 ???
 
-- Boundaries
-    - Packaging images
-    - configuring those images using provisioners
-    - may be the same configuration management tool we'll discuss later
+* Boundaries
+  * Packaging images
+  * configuring those images using provisioners
+  * may be the same configuration management tool we'll discuss later
