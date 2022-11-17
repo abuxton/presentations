@@ -7,7 +7,7 @@
 * Capabilities
 * Which tools if any?
 
-.pull[
+.footer[
 > DevOps. Community communicating **augmentation**, **capabilities** and **responsibilities** via use of tooling and advertised agreed responsibilities.
 ]
 

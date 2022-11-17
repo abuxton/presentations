@@ -14,7 +14,7 @@
 
 ]
 
-.pull-left[
+.footer[
 
 >If you want me to remove your intellectual property feel free to contact me!
 ]

@@ -13,7 +13,7 @@
 ![Harness devops](./_images/bangbittech-devops-toolchain.png)
 ]
 
-.pull-left[
+.footer[
 
 ]
 

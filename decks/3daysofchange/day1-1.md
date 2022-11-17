@@ -15,7 +15,7 @@
 ![Usual Suspects](../../assets/_shared/_images/usualsuspects.png)
 ]
 
-.pull[
+.footer[
 
 
 ]
