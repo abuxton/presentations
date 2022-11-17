@@ -57,4 +57,4 @@ exclude_rule 'MD036'
 exclude_rule 'MD041'
 
 # Allow both fenced and indented code blocks.
-rule 'MD046', style: [':fenced']
+# rule 'MD046', style: [':fenced']
