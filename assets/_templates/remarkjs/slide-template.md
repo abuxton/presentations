@@ -2,12 +2,9 @@
 
 # slide template
 
-
 ]
 .right-column-50[
 <!-- ![abuxton]() -->
-
-
 
 ]
 .pull[

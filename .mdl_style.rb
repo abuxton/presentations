@@ -36,8 +36,10 @@ exclude_rule 'MD013'
 exclude_rule 'MD004' # Unordered list style
 
 # I prefer two blank lines before each heading.
-exclude_rule 'MD012' # Multiple consecutive blank lines
-exlcude_rule 'MD026' # allow special characters on headers
+# Multiple consecutive blank lines
+exclude_rule 'MD012'
+# allow special characters on headers
+exclude_rule 'MD026'
 # I find it necessary to use '<br/>' to force line breaks.
 exclude_rule 'MD033' # Inline HTML
 
@@ -48,9 +50,12 @@ exclude_rule 'MD034' # Bare URL used
 # Exclude rules for pragmatic reasons.
 
 # Either disable this one or MD024 - Multiple headers with the same content.
-exclude_rule 'MD036' # Emphasis used instead of a header
 
-exclude_rule 'MD041' #file first line must start with #
+# Emphasis used instead of a header
+exclude_rule 'MD036'
+#file first line must start with #
+exclude_rule 'MD041'
+
 
 # Allow both fenced and indented code blocks.
 rule 'MD046', style: ['fenced', 'indented']
