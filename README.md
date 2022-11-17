@@ -28,3 +28,7 @@ Showoff is a classroom presnetation tool based on js and developed here <https:/
 ### ReMark
 
 <https://github.com/gnab/remark> is a nodejs based library to present markdown as slides.
+
+### Printing
+
+See remarks guide for printing <https://github.com/gnab/remark#printing>
