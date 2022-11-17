@@ -12,3 +12,7 @@ Over time i'll convert them all to remark and suitable markdown but for now if y
 * [Three Days of Change](./decks/3daysofchange/index.html)
 
 ]
+
+???
+
+- a test of foot notes
