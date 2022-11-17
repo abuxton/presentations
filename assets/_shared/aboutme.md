@@ -1,3 +1,4 @@
+
 .left-column-50[
 
 # Introductions First!
@@ -11,8 +12,8 @@ From a background in scratching around in the guts of disparate and deprecated s
 <https://abuxton.github.io>
 
 ]
-.pull[
-Feel free to buy me a coffee and ask my opinion on anything technology, DevOps, or system architecture and  configuration management.
+.footer[
+> Feel free to buy me a coffee and ask my opinion on anything technology, DevOps, or system architecture and  configuration management.
 ]
 
 <!--

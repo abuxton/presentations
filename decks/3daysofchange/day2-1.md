@@ -10,7 +10,7 @@ Ironically I did not ask!
 ![Harness devops](./_images/harness-devops-tools.png)
 ]
 
-.pull-left[
+.footer[
 
 ]
 
