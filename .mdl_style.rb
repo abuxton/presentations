@@ -56,6 +56,5 @@ exclude_rule 'MD036'
 #file first line must start with #
 exclude_rule 'MD041'
 
-
 # Allow both fenced and indented code blocks.
-rule 'MD046', style: ['fenced', 'indented']
+rule 'MD046', style: [':fenced']

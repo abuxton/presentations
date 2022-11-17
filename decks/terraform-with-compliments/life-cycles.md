@@ -12,6 +12,7 @@
 .right-column-50[
 
 ```hcl
+
 resource "aws_instance" "example" {
   # ...
 
@@ -20,9 +21,9 @@ resource "aws_instance" "example" {
       # Ignore changes to tags, e.g. because a management agent
       # updates these based on some ruleset managed elsewhere.
       tags,
-    ]
+      ]
+    }
   }
-}
 ```
 
 ]

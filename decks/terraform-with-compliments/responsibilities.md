@@ -10,6 +10,7 @@
 
 ]
 .right-column-50[
+
 ```hcl
 resource "aws_instance" "my-instance" {
 ...
