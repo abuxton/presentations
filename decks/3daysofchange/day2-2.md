@@ -2,9 +2,12 @@
 
 # Manage, configure and Operate
 
-## Setting boundaries and respecting them
+## How do you work within the boundaries you set
 
-Ironically I did not ask!
+* Tool limits, soft and hard
+* Team responsibility
+* Communication
+
 ]
 .right-column-50[
 ![Harness devops](./_images/bangbittech-devops-toolchain.png)
@@ -13,3 +16,7 @@ Ironically I did not ask!
 .pull-left[
 
 ]
+
+???
+
+- footnote

@@ -10,3 +10,7 @@
 .pull[
 > DevOps. Community communicating **augmentation**, **capabilities** and **responsibilities** via use of tooling and advertised agreed responsibilities.
 ]
+
+???
+
+- Discuss start up thoughts, DevOps adoption, Change projects they all face this same challenge.

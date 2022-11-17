@@ -19,3 +19,6 @@
 
 
 ]
+???
+
+- Stand on teh shoulder of giants, other people have tested, tried and you should not be afraid to cut those corners to start.

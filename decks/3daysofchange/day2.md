@@ -13,3 +13,7 @@ Ironically I did not ask!
 .pull-left[
 
 ]
+
+???
+
+- Need to understand limitations, respect boundaries and how to work with tools, teams and responsibilities that cross boundaries

@@ -13,3 +13,6 @@
 .pull[
 
 ]
+???
+
+- setting the boundaries, decide how you'll evaluate, how you decide and do not be scared to revisit

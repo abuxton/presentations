@@ -13,3 +13,7 @@ Ironically I did not ask!
 .pull-left[
 
 ]
+
+???
+
+- There is no perfect right answer, so you have to be able to review, and reconfirm or ascertain a new requirement and change.
