@@ -10,6 +10,7 @@
 
 ]
 .right-column-50[
+
 ```hcl
 resource "aws_instance" "example" {
   # ...
@@ -23,6 +24,7 @@ resource "aws_instance" "example" {
   }
 }
 ```
+
 ]
 .footer[
 > Which ever tool as responsibility, you need to know how to remove that responsibility from the others NOT just Terraform
@@ -30,6 +32,5 @@ resource "aws_instance" "example" {
 
 ???
 
-- Puppet, Ansible, Chef (dry-run enforcement)
-- platform specific tools
-
+* Puppet, Ansible, Chef (dry-run enforcement)
+* platform specific tools
