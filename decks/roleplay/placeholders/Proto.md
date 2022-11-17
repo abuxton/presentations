@@ -7,7 +7,7 @@
       [peadmin@master ~]# mco puppet runonce -C roles::build_server
 
 
-Using classification we can prototype the classification methodology, the ENC, and the infastructure. 
+Using classification we can prototype the classification methodology, the ENC, and the infastructure.
 
 We can review in the Puppet Console the run, the notifications and start to build up graphs of the model for our implimentation.
 
@@ -19,4 +19,3 @@ notes for presenter mode
 this will be additional in print
 
 ~~~ENDSECTION~~~
-

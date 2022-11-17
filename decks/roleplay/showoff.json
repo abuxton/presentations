@@ -1,6 +1,6 @@
 {
   "name": "Roles First Implementation",
-  "description": "Discussion on Roles and Profiles lead Puppet implimentation.", 
+  "description": "Discussion on Roles and Profiles lead Puppet implimentation.",
   "protected": ["presenter", "onepage"],
   "user": "presenter",
   "password": "changeme",
@@ -8,9 +8,9 @@
   "sections": [
 
     "intro/Cover.md",
-    "../shared/Aboutme.md", 
+    "../shared/Aboutme.md",
     "intro/Intro.md",
-    
+
     "roles/Section.md",
     "roles/Know.md",
     "roles/Stone.md",
@@ -18,7 +18,7 @@
     "profiles/Section.md",
     "profiles/Pleasehold.md",
     "profiles/Minecraft.md",
-    
+
     "placeholders/Psuedo.md",
     "placeholders/Proto.md",
     "placeholders/Overhead.md",

@@ -32,4 +32,3 @@ resource "aws_instance" "example" {
 
 - Puppet, Ansible, Chef (dry-run enforcement)
 - platform specific tools
-

@@ -1,4 +1,4 @@
-autoscale: true 
+autoscale: true
 footer: @digitaladept [http://abuxton.github.io]
 slidenumbers: true
 
@@ -15,27 +15,27 @@ Feel free to buy me a coffee and ask my opinion on anything tech based, DevOps, 
 ![right](../_shared/_images/me_fire_cmoss_e42014.jpg)
 
 ---
-# What is DevOps to you? 
+# What is DevOps to you?
 
-It's a simple question but such a complex answer! 
+It's a simple question but such a complex answer!
 * Recuiters think it's...
-* Enterprise thinks it's... 
-* Startups think it's.. 
+* Enterprise thinks it's...
+* Startups think it's..
 * The dictionary says it's...
 
 
 ---
 
-# How do you DevOps? 
+# How do you DevOps?
 * Impliment a siloed team?
 * Try and change your companies
 * Bring in transformation via consultants
 * Utilize `All the THINGS!`
-* another way. 
+* another way.
 
 ---
 
-# So what is DevOps? 
+# So what is DevOps?
 
 Let me bring it back to real basics:
 * Communication
@@ -49,7 +49,7 @@ Let me bring it back to real basics:
 ### What if I told you Email, news groups and Chat clients?
 
 * They are the core of communication
-* They provide history of where you stated capabilities of your team, tools or products. 
+* They provide history of where you stated capabilities of your team, tools or products.
 * They provide similar history of responsibility for capabilities, and enablement or denial and refusal.
 
 ![right](_images/CloudNativeLandscape_v0.9.4_cncf.jpg)
@@ -69,9 +69,9 @@ Let me bring it back to real basics:
 * Simplify how you look at the ridiculous breath of tools.
 * Simplify how you review where your organization stands today.
 
-Stop caring if you and your organisation are Agile, ITIL, old or new, enterprise of startup. 
+Stop caring if you and your organisation are Agile, ITIL, old or new, enterprise of startup.
 
---- 
+---
 # Q&A?
 
 ## Thank you
@@ -82,4 +82,3 @@ Stop caring if you and your organisation are Agile, ITIL, old or new, enterprise
 
 * https://xkcd.com/828/
 * https://my.usgs.gov/confluence/pages/viewpage.action?pageId=571578175
-
