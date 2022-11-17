@@ -31,7 +31,7 @@ repos:
     rev: v0.32.2
     hooks:
     - id: markdownlint
-      args: [-c .mdlrc]
+      args: [-c ./.mdlrc]
 
   # - repo: https://github.com/antonbabenko/pre-commit-terraform
   #   rev: <VERSION> # Get the latest from: https://github.com/antonbabenko/pre-commit-terraform/releases
