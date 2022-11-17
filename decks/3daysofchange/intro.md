@@ -8,3 +8,6 @@ Actually more a discussion of DevOps tools integration, collaboration and day 0,
 .right-column-50[
 	![xkcd](https://imgs.xkcd.com/comics/differentiation_and_integration.png)
 ]
+???
+
+- Deck presentation to discuss tooling, DevOps and boundaries of responsibilities.
