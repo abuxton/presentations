@@ -1,9 +1,9 @@
-autoscale: true 
+autoscale: true
 footer: @digitaladept [http://abuxton.github.io]
 slidenumbers: true
 
 # Automating, Configuring and Managing Security
- 
+
 ![right original](_images/security-it_security_framework_mobile.png)
 
 ---
@@ -18,7 +18,7 @@ Feel free to buy me a coffee and ask my opinion on anything tech based, DevOps, 
 ---
 
 # Standards, Benchmarks and more...
-### Commonality of approach is important to recognise. 
+### Commonality of approach is important to recognise.
 
 * What or who are asserting the standard you comply to
 * What provides the *Capability* to test for *Compliance*, *Remediate* or implement *Assurance*
@@ -51,10 +51,10 @@ How do you work out were you pass and were you currently fail?
 # Communication and reporting
 
 * Report the State of the Union
-* Report remediation 
+* Report remediation
 * Report assurance
 * Business analysis on both.
-  
+
 ![right  original](_images/xkcd_2166_stack.png)
 
 
@@ -62,7 +62,7 @@ How do you work out were you pass and were you currently fail?
 # How does this tie into Puppet?
 
 * Facter, Inventory service PQL, or Bolt tasks for inventory and discovery.
-* Bolt or Puppet for remediation. 
+* Bolt or Puppet for remediation.
 * Puppet for assurance
 * Console, Remdiate and Impact Analysis for reporting, or Bolt Apply Plans and Bolt reports.
 

@@ -4,7 +4,7 @@
 
 * Identifying the Roles first.
 * Using Roles & Profiles as placeholders?
-* Its a little like minecraft! 
+* Its a little like minecraft!
 * Does this work for everyone.
 
 
@@ -15,4 +15,3 @@
 ~~~SECTION:handouts~~~
 
 ~~~ENDSECTION~~~
-

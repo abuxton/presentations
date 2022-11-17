@@ -15,4 +15,3 @@ notes for presenter mode
 this will be additional in print
 
 ~~~ENDSECTION~~~
-

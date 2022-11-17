@@ -1,4 +1,4 @@
-autoscale: true 
+autoscale: true
 footer: @digitaladept [http://abuxton.github.io]
 slidenumbers: true
 
@@ -8,7 +8,7 @@ slidenumbers: true
 
 
 ---
-# Introductions first! 
+# Introductions first!
 
 A need to support my coffee addiction has taken me around the world working with and supporting all manner of development teams. The same addiction has supported me through long days and nights of platform integrations, fire fighting and launch management for various development teams in startups, gaming, finance and most fields of enterprise.
 
@@ -23,7 +23,7 @@ Feel free to buy me a coffee and ask my opinion on anything technology, devops, 
 
 * Where do you start?
 * What comes first?
-* What is the best approach to adoption? 
+* What is the best approach to adoption?
 * What if I tell you there is no single answer?
 
 ---
@@ -43,7 +43,7 @@ Feel free to buy me a coffee and ask my opinion on anything technology, devops, 
 * monitoring - console, and report features
 
 ^Tools
-* Tools deployment - Facter, puppet lib, 
+* Tools deployment - Facter, puppet lib,
 * Tooling - Puppet resource
 * Facter
 * command & control - MCollective
@@ -52,7 +52,7 @@ Feel free to buy me a coffee and ask my opinion on anything technology, devops, 
 # Solutions #
 ## What are some solutions or things we all need! ##
 
-Puppet has its own "Chicken and Eggs"! But what do we normally want, what are our eggs . 
+Puppet has its own "Chicken and Eggs"! But what do we normally want, what are our eggs .
 
 * Tooling - Tools to make life easier.
 * Auditing - We all need to know things about our infrastructure.
@@ -88,7 +88,7 @@ Puppet comes with solutions for some of the things! I'm going to talk about them
 ## One 'syntax' to rule them all! ##
 
 * No I do not mean only the Puppet DSL.
-* No I'm not about to say go use Ruby. But I am going to mention Ruby. 
+* No I'm not about to say go use Ruby. But I am going to mention Ruby.
 * I am going to tell you its good to make a choice!
 
 ---
@@ -107,7 +107,7 @@ If you just installed Facter with or without Puppet what would you gain?
 * Unified inventory mechanism!
 * Dependable execution path!
 
-With Puppet You even get a deployment mechanism! 
+With Puppet You even get a deployment mechanism!
 
 ---
 # Puppet RAL #
@@ -141,11 +141,11 @@ MCollective, Puppet enterprise takes the hard work out of deploying MCollective 
 * Puppet reports everything, you decide where to and how.
 * Puppets actions send by default to OS system logging as a standard, but you can control this too.
 * Full puppet reports can be post processed to any system of your choice.
-* 
+*
 
 ---
 #Auditing
-##Puppet can Audit, but it's often abused and misused. 
+##Puppet can Audit, but it's often abused and misused.
 
 * Audit distinct resources
 * Understand it audits every time it runs.
@@ -161,7 +161,7 @@ MCollective, Puppet enterprise takes the hard work out of deploying MCollective 
 
 ---
 #Community Supported solutions
-## Do not lay the same eggs! 
+## Do not lay the same eggs!
 
 * Forge.puppetlabs.com
 * github.com
@@ -171,17 +171,17 @@ MCollective, Puppet enterprise takes the hard work out of deploying MCollective 
 # Puppet Open Source Solution #
 
 Well  'Free' as in you  don't pay to use it, but like everything there is still an investment.
-* Recent changes to all-in-one installer. 
+* Recent changes to all-in-one installer.
 * POSS now uses same file structure as PE.
 * You loose some of the tools, but not all of them.
-* Community modules and work make up for a lot of the gaps. 
+* Community modules and work make up for a lot of the gaps.
 
 ---
 
 # Master less #
 ## OK I'm stealing all your questions! ##
 
-It's O.K, you just lose some of the tools, but not all of them.  
+It's O.K, you just lose some of the tools, but not all of them.
 
 ---
 # There is no Spoon! #
