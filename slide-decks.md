@@ -9,7 +9,8 @@ Over time i'll convert them all to remark and suitable markdown but for now if y
 
 ]
 .right-column-50[
-* [Three Days of Change](./decks/3daysofchange/index.html)
+* [Three Days of Change](http://blog.abcdevelopment.co.uk/presentations/assets/decks/3daysofchange/index.html)
+* [Complimentary Terraform](http://blog.abcdevelopment.co.uk/presentations/assets/decks/terraform-with-compliments/index.html)
 
 ]
 
