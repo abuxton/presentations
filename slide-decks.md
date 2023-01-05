@@ -11,6 +11,7 @@ Over time i'll convert them all to remark and suitable markdown but for now if y
 .right-column-50[
 * [Three Days of Change](./decks/3daysofchange/index.html)
 * [Terraform with Compliments](./decks/terraform-with-compliments/index.html)
+* [Terraform with Config Management](./decks/terraform-cfgmgmt/index.html)
 ]
 
 ???
