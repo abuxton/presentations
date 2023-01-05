@@ -2,11 +2,11 @@
 
 # Responsibilities
 
-* build or source
-* deploy or configure
-* redeploy or reconfigure
-* change management
-* Drift detection or monitoring
+* Build or source?
+* Deploy or configure?
+* Redeploy or reconfigure?
+* Change management?
+* Drift detection or monitoring?
 
 ]
 .right-column-50[

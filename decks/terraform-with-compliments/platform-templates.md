@@ -3,7 +3,7 @@
 # Platform specific automation
 
 * Amazon Cloud Formation
-* Azure arm templates
+* Azure ARM templates
 * GCP Deployment Manager
 * VMWare Aria
 * Others you can mention!

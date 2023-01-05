@@ -9,3 +9,6 @@ new:
 validate-all:
 	pre-commit install
 	pre-commit run -a
+
+present-all:
+	python3 -m http.server
